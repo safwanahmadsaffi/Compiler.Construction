@@ -97,7 +97,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # UI Layout
-st.markdown("<div class='welcome-header'><h1>Expression Compiler</h1><p>Convert infix expressions to postfix & stack code</p></div>", unsafe_allow_html=True)
+st.markdown("<div class='welcome-header'><h2>Expression Compiler</h2><p>Convert infix expressions to postfix & stack code</p></div>", unsafe_allow_html=True)
 
 expr = st.text_input("Enter an expression (e.g., `x = 3 + 4 * 2`)")
 
