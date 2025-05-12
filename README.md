@@ -1,6 +1,6 @@
-# 🚀 COMPILER
+# 🚀 COMPILER-CONSTRUCTION
 
-**StackForge** is a lightweight expression compiler that transforms infix mathematical expressions into postfix notation and generates simple stack-based instructions. It showcases compiler components like lexing, parsing, and code generation — all through an elegant web interface built using **Streamlit**.
+**This** is a lightweight expression compiler that transforms infix mathematical expressions into postfix notation and generates simple stack-based instructions. It showcases compiler components like lexing, parsing, and code generation — all through an elegant web interface built using **Streamlit**.
 
 ---
 
@@ -9,7 +9,6 @@
 ---
 
 # README content
-readme_content = """
 # 🧮 Infix Expression Compiler (with Streamlit UI)
 
 This project allows you to input **infix arithmetic expressions** (e.g., `a + b * (c - d)`) and:
