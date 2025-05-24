@@ -61,40 +61,6 @@ def compile_code(expr):
     except Exception as e:
         return None, None, f"Compilation Error: {e}"
 
-# Streamlit UI and CSS
-st.markdown("""
-<style>
-.main { background-color: #1a1a2e; color: #ffffff; }
-.stApp { background-color: #1a1a2e; }
-.content-container {
-    background-color: #16213e; padding: 20px; border-radius: 15px;
-    margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-}
-.welcome-header {
-    background: linear-gradient(135deg, #0f3460 0%, #533483 100%);
-    color: white; padding: 30px; border-radius: 15px; margin-bottom: 30px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-.welcome-header h2 {
-    font-size: 2.5rem; margin-bottom: 10px; color: #ffffff; font-weight: 700;
-}
-.welcome-header p { font-size: 1.2rem; color: #e2e8f0; margin-bottom: 0; }
-.stButton > button {
-    background-color: #3498db !important; color: white !important;
-    border: none !important; padding: 10px 24px !important;
-    border-radius: 5px !important; font-weight: 500 !important;
-    transition: all 0.3s ease !important;
-}
-.stButton > button:hover {
-    background-color: #2980b9 !important; transform: translateY(-2px) !important;
-}
-.stTextInput > div > div > input {
-    background-color: #1f4068 !important; color: white !important;
-    border: 1px solid #3498db !important;
-}
-</style>
-""", unsafe_allow_html=True)
-
 st.markdown("<div class='welcome-header'><h2>Expression Compiler</h2><p>Convert infix expressions to postfix & stack code</p></div>", unsafe_allow_html=True)
 
 expr = st.text_input("Enter an expression (e.g., `x = 3 + 4 * 2`)")
