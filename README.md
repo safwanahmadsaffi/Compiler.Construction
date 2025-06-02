@@ -116,10 +116,16 @@ Then access it using:
         st.error(f"Error: {e}")
     
 # USE NOW
-        https://parse-pilot.streamlit.app/
+    https://mini-x-compiler.streamlit.app/
+---
+# Acess through:
+[https://huggingface.co/spaces/Safwanahmad619/infix-to-post-compiler/](https://huggingface.co/spaces/Safwanahmad619/infix-to-post-compiler/)
+
+    
 ---
 ### 🖼️ Screenshot
 ---
 <div align="center">
   <img src="compiler.png" alt="Compiler Screenshot" width="600" style="border: 2px solid #ccc; border-radius: 10px; padding: 4px;">
 </div>
+
