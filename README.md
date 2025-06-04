@@ -1,11 +1,13 @@
-
 ```markdown
 
+
+````
 # 🚀 Infix Expression Compiler with AST Visualization
 
-**This** is a comprehensive expression compiler that transforms infix mathematical expressions into multiple
-representations including postfix notation, stack-based instructions, and visual Abstract Syntax Trees (AST).
-It showcases essential compiler components like lexing, parsing, AST generation, and code generation — all through an elegant web interface built using **Streamlit**.
+    
+    **This** is a comprehensive expression compiler that transforms infix mathematical expressions into multiple representations including 
+    postfix notation, stack-based instructions, and visual Abstract Syntax Trees (AST).It showcases essential compiler components like lexing,
+    parsing, AST generation, and code generation — all through an elegant web interface built using **Streamlit**.
 
 ---
 
